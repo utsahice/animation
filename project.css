@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Top Nav */
+.top-nav {
+  background-color: #002366;
+  color: #fff;
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-nav .left a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.view {
+  text-decoration: underline;
+}
+
+.topnav-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+progress {
+  height: 10px;
+}
+.main-nav {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-items li {
+  font-weight: bold;
+}
+
+.nav-items i {
+  background-color: #8a2be2;
+  color: white;
+  border-radius: 50%;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.browse-btn {
+  background-color: #735ff2;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #0f1b4c;
+  color: white;
+  padding: 60px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  margin-bottom: 30px;
+  max-width: 500px;
+}
+
+.stats {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.hero-image {
+  position: relative;
+}
+.hero-content img{
+    height: 40px;
+    /* width: 50px; */
+    border-radius: 80%;
+}
+.hero-image img {
+  max-width: 350px;
+}
+.bestservice{
+    background-color: white;
+    color: black;
+    border-radius: 20%;
+    height: 150px;
+    width: 300px;
+}
+.bestservice p{
+    text-align: center;
+    margin-top: 30px;
+}
+

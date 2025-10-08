@@ -197,6 +197,13 @@ progress {
   font-size: 14px;
    float: right;
 }
+.card p i {
+    float: right;
+    background-color: white;
+    color: yellow;
+  font-size: 20px;
+
+}
 .card-title-main{
     padding-left: 80px;
     font-family:'Times New Roman', Times, serif;

@@ -1,0 +1,29 @@
+.btn button{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    text-align: center;
+}
+
+.btn button:hover {
+      background-color: darkblue;
+}
+.btn button:focus{
+    text-transform: uppercase;
+}
+li:nth-child(3){
+  border: 2px solid orange;
+}
+li:first-child{
+  border: 2px solid black;
+}
+button::after {
+  content: " \2192";
+  margin-left: 5px;
+  color: green;
+}
+button::before {
+  content: "click here: ";
+  font-weight: bold;
+  color: blue;
+}
